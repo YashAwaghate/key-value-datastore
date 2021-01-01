@@ -3,7 +3,7 @@ This is a key-value data store that supports basic Create-Read-Delete operations
 
 ## Dependencies
 1.Install Libraries (os, json,time)  
-2.The working directory must conatin 4 empty json files ({}) named (pairs,ttlpairs,start_time,time_allowed)
+2.The working directory must conatin 4 empty json files ({}) named (pairs,ttlpairs,start_time,time_allowed)  
     pairs        : Contains the key-value pairs in json format  
     ttlpairs     : stores the key- value pairs with time-to-live property.  
     start_time   : stores start time of all the pairs with ttl property.  
