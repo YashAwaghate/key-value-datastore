@@ -3,11 +3,11 @@ This is a key-value data store that supports basic Create-Read-Delete operations
 
 ## Dependencies
 1.Install Libraries (os, json,time)  
-2.The working directory must conatin 4 empty json files ({}) named (myfile,timer1,timer2,timer3)
-    myfile : Contains the key-value pairs in json format  
-    timer1: stores the key- value pairs with time-to-live property.  
-    timer2: stores start time of all the pairs with ttl property.  
-    timer3 : stores the time allowed before deletion of the key-value pairs with ttl property.  
+2.The working directory must conatin 4 empty json files ({}) named (pairs,ttlpairs,start_time,time_allowed)
+    pairs        : Contains the key-value pairs in json format  
+    ttlpairs     : stores the key- value pairs with time-to-live property.  
+    start_time   : stores start time of all the pairs with ttl property.  
+    time_allowed : stores the time allowed before deletion of the key-value pairs with ttl property.  
 
 ## To use this as Module
 1.Copy the file to directory where you will import this.  
